@@ -1,0 +1,26 @@
+.hello{
+	color:tomato;
+	text-align: center;
+	font-family: monospace;
+}
+
+.img{
+	height: 270px;
+	width:200px;
+	margin: 50px;
+	padding: 20px;
+	border: solid black;
+	border-radius: 20px;
+	background-color: tomato;
+	color: white;
+	font-family: monospace;
+	font-weight: bold;
+
+}
+
+body{
+
+background-color:#03e7fc;
+
+}
+
