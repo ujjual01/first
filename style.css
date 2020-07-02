@@ -15,12 +15,47 @@
 	color: white;
 	font-family: monospace;
 	font-weight: bold;
+	display: flex;
+	flex-wrap: wrap;
 
 }
 
-body{
+input{
+margin: 20px;
+padding: 10px;
+border-radius: 20px;
+border:solid black;
+}
 
-background-color:#03e7fc;
+
+
+
+button{
+	height: 50px;
+	width: 170px;
+	font-size: 24px;
+	border-radius: 15px;
+	background-color: green;
+	color:white;
 
 }
 
+
+button:hover{
+	background-color: yellow;
+}
+
+
+@media print{
+	.img{
+		display: none;
+	}
+}
+
+
+
+body {
+     background-color:#03e7fc;
+    }
+
+ }
